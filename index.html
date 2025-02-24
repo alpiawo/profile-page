@@ -1,3 +1,4 @@
+```
 <!DOCTYPE html>
 <html lang="en">
 
@@ -91,7 +92,7 @@
     </div>
 
     <!-- Experience -->
-    <div class="about-self">
+    <div class="about-self hidden">
         <div class="text-self">
             <h1>Recognize me!</h1>
             <p>Hello, my name is Luqman Alfi Kurniawan, I was born in Malang,
@@ -101,14 +102,13 @@
                 the world of software.</p>
         </div>
         <div class="image-self">
-            <div class="image">
-                <img src="./images/person-dua.png" alt="Alpi">
-            </div>
+            <img src="./images/person-dua.png" alt="Alpi">
+        </div>
     </div>
 
     <!-- Portfolio -->
-    <div class="port-sec">
-        <div class="portfolio" id="portfolio">
+     <div class="port-sec">
+        <div class="portfolio hidden" id="portfolio">
             <div class="portfolio-title">
                 <h1>Portfolio</h1>
             </div>
@@ -123,333 +123,284 @@
                         <p>An application to manage employee attendance using Django.</p>
                         <button class="learn-more">Learn More</button>
                     </div>
-                    <div class="portfolio" id="portfolio">
-                        <div class="portfolio-title">
-                            <h1>Portfolio</h1>
-                        </div>
-                        <div class="portfolio-grid">
-                            <div class="portfolio-card" data-title="Attendance Employee Django"
-                                data-description="An application to manage employee attendance using Django.">
-                                <div class="card-image">
-                                    <img src="./images/portfolio/AttendanceEmployeeDjango.png" alt="Portfolio 1">
-                                </div>
-                                <div class="card-content">
-                                    <h3>Attendance Employee</h3>
-                                    <p>An application to manage employee attendance using Django.</p>
-                                    <button class="learn-more">Learn More</button>
-                                </div>
-                            </div>
-                            <div class="portfolio-card" data-title="Fundraising App"
-                                data-description="Apps for online fundraising.">
-                                <div class="card-image">
-                                    <img src="./images/portfolio/BantuFund.png" alt="Portfolio 2">
-                                </div>
-                                <div class="portfolio-card" data-title="Fundraising App"
-                                    data-description="Apps for online fundraising.">
-                                    <div class="card-image">
-                                        <img src="./images/portfolio/BantuFund.png" alt="Portfolio 2">
-                                    </div>
-                                    <div class="card-content">
-                                        <h3>Fundraising App</h3>
-                                        <p>Landing Page for online application fundraising.</p>
-                                        <button class="learn-more">Learn More</button>
-                                    </div>
-                                </div>
-                                <div class="portfolio-card" data-title="Freelance Job"
-                                    data-description="Landing page & Profile Company Page (Freelance Job).">
-                                    <div class="card-image">
-                                        <img src="./images/portfolio/FreelanceJob.png" alt="Portfolio 3">
-                                    </div>
-                                    <div class="card-content">
-                                        <h3>Freelance Job</h3>
-                                        <p>Landing page & Profile Company Page (Freelance Job).</p>
-                                        <button class="learn-more">Learn More</button>
-                                    </div>
-                                </div>
-                                <div class="portfolio-card" data-title="Pelanggaran Siswa"
-                                    data-description="Application to record student offenses at school.">
-                                    <div class="card-image">
-                                        <img src="./images/portfolio/PelanggaranSiswa.png" alt="Portfolio 4">
-                                    </div>
-                                    <div class="card-content">
-                                        <h3>Pelanggaran Siswa</h3>
-                                        <p>Application to record student offenses at school.</p>
-                                        <button class="learn-more">Learn More</button>
-                                    </div>
-                                </div>
-                                <div class="portfolio-card" data-title="Freelance Job"
-                                    data-description="Landing page & Profile Company Page (Freelance Job).">
-                                    <div class="card-image">
-                                        <img src="./images/portfolio/FreelanceJob.png" alt="Portfolio 3">
-                                    </div>
-                                    <div class="card-content">
-                                        <h3>Freelance Job</h3>
-                                        <p>Landing page & Profile Company Page (Freelance Job).</p>
-                                        <button class="learn-more">Learn More</button>
-                                    </div>
-                                </div>
-                                <div class="portfolio-card" data-title="Pelanggaran Siswa"
-                                    data-description="Application to record student offenses at school.">
-                                    <div class="card-image">
-                                        <img src="./images/portfolio/PelanggaranSiswa.png" alt="Portfolio 4">
-                                    </div>
-                                    <div class="card-content">
-                                        <h3>Pelanggaran Siswa</h3>
-                                        <p>Application to record student offenses at school.</p>
-                                        <button class="learn-more">Learn More</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Modal -->
-                        <div id="portfolio-modal" class="modal">
-                            <div class="modal-content">
-                                <span class="close">&times;</span>
-                                <img id="modal-image" src="" alt="Modal Image">
-                                <h2 id="modal-title"></h2>
-                                <p id="modal-description"></p>
-                            </div>
-                        </div>
+                </div>
+                <div class="portfolio-card" data-title="Fundraising App" data-description="Apps for online fundraising.">
+                    <div class="card-image">
+                        <img src="./images/portfolio/BantuFund.png" alt="Portfolio 2">
                     </div>
+                    <div class="card-content">
+                        <h3>Fundraising App</h3>
+                        <p>Landing Page for online application fundraising.</p>
+                        <button class="learn-more">Learn More</button>
+                    </div>
+                </div>
+                <div class="portfolio-card" data-title="Freelance Job"
+                    data-description="Landing page & Profile Company Page (Freelance Job).">
+                    <div class="card-image">
+                        <img src="./images/portfolio/FreelanceJob.png" alt="Portfolio 3">
+                    </div>
+                    <div class="card-content">
+                        <h3>Freelance Job</h3>
+                        <p>Landing page & Profile Company Page (Freelance Job).</p>
+                        <button class="learn-more">Learn More</button>
+                    </div>
+                </div>
+                <div class="portfolio-card" data-title="Pelanggaran Siswa"
+                    data-description="Application to record student offenses at school.">
+                    <div class="card-image">
+                        <img src="./images/portfolio/PelanggaranSiswa.png" alt="Portfolio 4">
+                    </div>
+                    <div class="card-content">
+                        <h3>Pelanggaran Siswa</h3>
+                        <p>Application to record student offenses at school.</p>
+                        <button class="learn-more">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
 
-                    <!-- Contact Section -->
-                    <div class="form-contain" id="contact">
-                        <div class="contact">
-                            <div class="top-contact">
-                                <div class="text-contact">
-                                    <h1>Hello, Nice to meet ya!</h1>
-                                    <p style="color: #353535;">If you have anything to say, please fill out this form.
-                                        Thank you for
-                                        visiting .</p>
-                                </div>
-                                <div class="image-contact">
-                                    <img src="./images/person-satu.png" alt="Alpi">
-                                </div>
-                            </div>
-                            <!-- <hr> -->
-                            <div class="bottom-contact">
-                                <div class="form-section">
-                                    <form id="contactForm" action="https://server-mailer-blond.vercel.app/send-email"
-                                        method="POST">
-                                        <div class="form-group">
-                                            <label for="name">Name</label>
-                                            <input type="text" id="name" name="name" required>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="email">Email</label>
-                                            <input type="email" id="email" name="email" required>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="message">Message</label>
-                                            <textarea id="message" name="message" rows="4" required></textarea>
-                                        </div>
-                                        <button class="form-bt" type="submit">Submit</button>
-                                    </form>
-                                </div>
-                                <!-- Text Section -->
-                                <div class="text-section">
-                                    <h1 class="large-text">If you have anything to say, please fill out this form. Thank
-                                        you for
-                                        visiting. </h1>
-                                    <p style="color: #353535;font-weight: 100;text-align: start;margin-top: 2rem;">If
-                                        you have anything
-                                        to say, please fill out this form. Thank you for visiting .</p>
-                                </div>
-                            </div>
+    <!-- Modal -->
+    <div id="portfolio-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img id="modal-image" src="" alt="Modal Image">
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+        </div>
+    </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="form-contain hidden" id="contact">
+        <div class="contact">
+            <div class="top-contact">
+                <div class="text-contact">
+                    <h1>Hello, Nice to meet ya!</h1>
+                    <p style="color: #353535;">If you have anything to say, please fill out this form. Thank you for
+                        visiting .</p>
+                </div>
+                <div class="image-contact">
+                    <img src="./images/person-satu.png" alt="Alpi">
+                </div>
+            </div>
+            <!-- <hr> -->
+            <div class="bottom-contact">
+                <div class="form-section">
+                    <form id="contactForm" action="https://server-mailer-blond.vercel.app/send-email" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
                         </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button class="form-bt" type="submit">Submit</button>
+                    </form>
+                </div>
+                <!-- Text Section -->
+                <div class="text-section">
+                    <h1 class="large-text">If you have anything to say, please fill out this form. Thank you for
+                        visiting. </h1>
+                    <p style="color: #353535;font-weight: 100;text-align: start;margin-top: 2rem;">If you have anything
+                        to say, please fill out this form. Thank you for visiting .</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Web development</a></li>
+                            <li><a href="#">Web design</a></li>
+                            <li><a href="#">Company Profile</a></li>
+                        </ul>
                     </div>
-
-                    <!-- Footer Section -->
-                    <div class="footer-dark">
-                        <footer>
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-sm-6 col-md-3 item">
-                                        <h3>Services</h3>
-                                        <ul>
-                                            <li><a href="#">Web development</a></li>
-                                            <li><a href="#">Web design</a></li>
-                                            <li><a href="#">Company Profile</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-sm-6 col-md-3 item">
-                                        <h3>Navigation</h3>
-                                        <ul>
-                                            <li><a href="#home">Home</a></li>
-                                            <li><a href="#about">About</a></li>
-                                            <li><a href="#portfolio">Portfolio</a></li>
-                                            <li><a href="#contact">Contact</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-md-6 item text">
-                                        <h3>Luqman Alfi Kurniawan D.</h3>
-                                        <p>Young people who are passionate about learning and exploring the world of
-                                            software. With his Frontend and Backend skills, he will not be discouraged.
-                                        </p>
-                                    </div>
-                                    <div class="col item social"><a href="https://x.com/alpiyangini"><i
-                                                class="icon ion-social-twitter"></i></a><a
-                                            href="http://linkedin.com/in/alpiaoka11"><i
-                                                class="icon ion-social-linkedin"></i></a><a
-                                            href="https://instagram.com/luqmanalfi_"><i
-                                                class="icon ion-social-instagram"></i></a></div>
-                                </div>
-                                <p class="copyright">Luqman Alfi © 2018</p>
-                            </div>
-                        </footer>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Navigation</h3>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
                     </div>
-                    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-                    <script
-                        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
-                    <script>
-                        document.getElementById('navbar-toggle').addEventListener('click', function () {
-                            this.classList.toggle('active');
-                            document.getElementById('navbar-list').classList.toggle('active');
-                        });
+                    <div class="col-md-6 item text">
+                        <h3>Luqman Alfi Kurniawan D.</h3>
+                        <p>Young people who are passionate about learning and exploring the world of software. With his Frontend and Backend skills, he will not be discouraged.</p>
+                    </div>
+                    <div class="col item social"><a href="https://x.com/alpiyangini"><i 
+                                class="icon ion-social-twitter"></i></a><a href="http://linkedin.com/in/alpiaoka11"><i
+                                class="icon ion-social-linkedin"></i></a><a href="https://instagram.com/luqmanalfi_"><i
+                                class="icon ion-social-instagram"></i></a></div>
+                </div>
+                <p class="copyright">Luqman Alfi © 2018</p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.getElementById('navbar-toggle').addEventListener('click', function () {
+            this.classList.toggle('active');
+            document.getElementById('navbar-list').classList.toggle('active');
+        });
 
-                        document.querySelectorAll('.navbar-item a, .footer-dark a').forEach(anchor => {
-                            anchor.addEventListener('click', function (e) {
-                                e.preventDefault();
-                                const targetId = this.getAttribute('href').substring(1);
-                                document.getElementById(targetId).scrollIntoView({
-                                    behavior: 'smooth'
-                                });
-                            });
-                        });
+        document.querySelectorAll('.navbar-item a, .footer-dark a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                document.getElementById(targetId).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
 
-                        function handleIconDuplication() {
-                            const marqueeContent = document.querySelector('.marquee-content');
-                            if (!marqueeContent) {
-                                console.error('marquee-content element not found');
-                                return;
-                            }
-                            const items = marqueeContent.querySelectorAll('.item-app');
+        function handleIconDuplication() {
+            const marqueeContent = document.querySelector('.marquee-content');
+            if (!marqueeContent) {
+                console.error('marquee-content element not found');
+                return;
+            }
+            const items = marqueeContent.querySelectorAll('.item-app');
 
-                            if (window.innerWidth <= 768) {
-                                // Duplikasi icon hanya jika belum ada duplikasi
-                                if (items.length === 6) {
-                                    items.forEach(item => {
-                                        const clone = item.cloneNode(true);
-                                        marqueeContent.appendChild(clone);
-                                    });
-                                }
-                            } else {
-                                // Hapus duplikasi icon jika lebar layar > 768px
-                                if (items.length > 6) {
-                                    for (let i = items.length - 1; i >= 6; i--) {
-                                        marqueeContent.removeChild(items[i]);
-                                    }
-                                }
-                            }
-                        }
+            if (window.innerWidth <= 768) {
+                // Duplikasi icon hanya jika belum ada duplikasi
+                if (items.length === 6) {
+                    items.forEach(item => {
+                        const clone = item.cloneNode(true);
+                        marqueeContent.appendChild(clone);
+                    });
+                }
+            } else {
+                // Hapus duplikasi icon jika lebar layar > 768px
+                if (items.length > 6) {
+                    for (let i = items.length - 1; i >= 6; i--) {
+                        marqueeContent.removeChild(items[i]);
+                    }
+                }
+            }
+        }
 
-                        // portfolio modal
-                        const modal = document.getElementById('portfolio-modal');
-                        const modalImage = document.getElementById('modal-image');
-                        const modalTitle = document.getElementById('modal-title');
-                        const modalDescription = document.getElementById('modal-description');
-                        const closeModal = document.querySelector('.close');
+        // portfolio modal
+        const modal = document.getElementById('portfolio-modal');
+        const modalImage = document.getElementById('modal-image');
+        const modalTitle = document.getElementById('modal-title');
+        const modalDescription = document.getElementById('modal-description');
+        const closeModal = document.querySelector('.close');
 
-                        document.querySelectorAll('.learn-more').forEach(button => {
-                            button.addEventListener('click', function () {
-                                const card = this.closest('.portfolio-card');
-                                const imageSrc = card.querySelector('img').src;
-                                const title = card.getAttribute('data-title');
-                                const description = card.getAttribute('data-description');
+        document.querySelectorAll('.learn-more').forEach(button => {
+            button.addEventListener('click', function () {
+                const card = this.closest('.portfolio-card');
+                const imageSrc = card.querySelector('img').src;
+                const title = card.getAttribute('data-title');
+                const description = card.getAttribute('data-description');
 
-                                modalImage.src = imageSrc;
-                                modalTitle.textContent = title;
-                                modalDescription.textContent = description;
+                modalImage.src = imageSrc;
+                modalTitle.textContent = title;
+                modalDescription.textContent = description;
 
-                                modal.style.display = 'block'; // Tampilkan modal
-                            });
-                        });
+                modal.style.display = 'block'; // Tampilkan modal
+            });
+        });
 
-                        // Close Modal
-                        closeModal.addEventListener('click', function () {
-                            modal.style.display = 'none';
-                        });
+        // Close Modal
+        closeModal.addEventListener('click', function () {
+            modal.style.display = 'none';
+        });
 
-                        window.addEventListener('click', function (event) {
-                            if (event.target === modal) {
-                                modal.style.display = 'none';
-                            }
-                        });
+        window.addEventListener('click', function (event) {
+            if (event.target === modal) {
+                modal.style.display = 'none';
+            }
+        });
 
-                        window.addEventListener('load', handleIconDuplication);
-                        window.addEventListener('resize', handleIconDuplication);
+        window.addEventListener('load', handleIconDuplication);
+        window.addEventListener('resize', handleIconDuplication);
 
-                        // Form
-                        document.getElementById('contactForm').addEventListener('submit', function (event) {
-                            event.preventDefault();
+        // Form
+        document.getElementById('contactForm').addEventListener('submit', function (event) {
+            event.preventDefault();
 
-                            const name = document.getElementById('name').value.trim();
-                            const email = document.getElementById('email').value.trim();
-                            const message = document.getElementById('message').value.trim();
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const message = document.getElementById('message').value.trim();
 
-                            if (name === "" || email === "" || message === "") {
-                                swal("Error", "Harap isi semua kolom!", "error");
-                                return;
-                            }
+            if (name === "" || email === "" || message === "") {
+                swal("Error", "Harap isi semua kolom!", "error");
+                return;
+            }
 
-                            if (!validateEmail(email)) {
-                                swal("Error", "Email tidak valid!", "error");
-                                return;
-                            }
+            if (!validateEmail(email)) {
+                swal("Error", "Email tidak valid!", "error");
+                return;
+            }
 
-                            // Kirim data ke backend
-                            fetch('https://server-mailer-blond.vercel.app/send-email', {
-                                method: 'POST',
-                                headers: {
-                                    'Content-Type': 'application/json'
-                                },
-                                body: JSON.stringify({ name, email, message })
-                            })
-                                .then(response => response.text())
-                                .then(data => {
-                                    swal("Success", "Pesan berhasil dikirim!", "success");
-                                })
-                                .catch(error => {
-                                    console.error('Error:', error);
-                                    swal("Error", "Terjadi kesalahan saat mengirim pesan.", "error");
-                                });
-                        });
+            // Kirim data ke backend
+            fetch('https://server-mailer-blond.vercel.app/send-email', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ name, email, message })
+            })
+                .then(response => response.text())
+                .then(data => {
+                    swal("Success", "Pesan berhasil dikirim!", "success");
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    swal("Error", "Terjadi kesalahan saat mengirim pesan.", "error");
+                });
+        });
 
-                        function validateEmail(email) {
-                            const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-                            return re.test(email);
-                        }
+        function validateEmail(email) {
+            const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return re.test(email);
+        }
 
-                        // animation in
-                        document.addEventListener('DOMContentLoaded', function () {
-                            const elements = document.querySelectorAll('.hidden');
+        // animation in
+        document.addEventListener('DOMContentLoaded', function () {
+            const elements = document.querySelectorAll('.hidden');
 
-                            const observer = new IntersectionObserver((entries) => {
-                                entries.forEach(entry => {
-                                    if (entry.isIntersecting) {
-                                        entry.target.classList.add('visible');
-                                        observer.unobserve(entry.target);
-                                    }
-                                });
-                            }, {
-                                threshold: window.innerWidth <= 768 ? 0.3 : 0.5
-                            });
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, {
+                threshold: window.innerWidth <= 768 ? 0.3 : 0.5
+            });
 
-                            elements.forEach(element => {
-                                observer.observe(element);
-                            });
-                        });
+            elements.forEach(element => {
+                observer.observe(element);
+            });
+        });
 
-                        // Scroll to contact section from modal
-                        document.getElementById('contact-link').addEventListener('click', function () {
-                            modal.style.display = 'none';
-                            document.getElementById('contact').scrollIntoView({
-                                behavior: 'smooth'
-                            });
-                        });
+        // Scroll to contact section from modal
+        document.getElementById('contact-link').addEventListener('click', function () {
+            modal.style.display = 'none';
+            document.getElementById('contact').scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
 
-                    </script>
+    </script>
 </body>
-
 </html>
+```
+
+beri animasi pada imagenya di bagian about alpi, agar bergerak gerak
