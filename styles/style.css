@@ -149,7 +149,7 @@ body {
 
 @media (max-width: 1024px) {
     .title-top p {
-        font-size: 3.5rem;
+        font-size: 4rem;
     }
 }
 
@@ -165,7 +165,7 @@ body {
     }
 
     .title-top p {
-        font-size: 3.2rem;
+        font-size: 3rem;
     }
 }
 
